@@ -3,21 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <title>JM</title>
+    <link href="static/css/common.css" type="text/css" rel="stylesheet">
+    <link href="static/css/jm_table.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/jquery-1.12.0.min.js"></script>
 </head>
 <body>
-<table>
+<table class="jm-table">
     <thead>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>组件</th>
+            <th>组件库</th>
+            <th>来源</th>
+            <th>版本</th>
+            <th>维护人员</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <td colspan="5">
+                <div class="del-type fn-right">
+                    <span>删除</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="tl">图片轮播</td>
+            <td>swiper</td>
+            <td>http://www.swiper.com.cn/</td>
             <td></td>
+            <td></td>
+        </tr>
+        <tr class="del">
+            <td class="tl">登录弹出框</td>
+            <td>fancybox</td>
+            <td>http://www.fancybox.net/</td>
+            <td></td>
+            <td>已用layer.js代替</td>
+        </tr>
+        <tr>
+            <td class="tl">弹出框 dialog</td>
+            <td>layer</td>
+            <td>http://layer.layui.com/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">分页 pagtion</td>
+            <td>paging、pagtion</td>
+            <td>http://www.lovewebgames.com/jsmodule/paging.html</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">满屏滚动 fullpage</td>
+            <td>fullpage、swiper</td>
+            <td>http://www.swiper.com.cn/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">下拉框 select</td>
+            <td>jQuery EasyDropDown</td>
+            <td>http://www.jq22.com/yanshi191</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">下拉框 select美化</td>
+            <td>select2</td>
+            <td>http://select2.github.io/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">日期 calendar</td>
+            <td>MY97</td>
+            <td>http://www.my97.net/dp/demo/index.htm</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">时间格式 format</td>
+            <td>moment</td>
+            <td>http://momentjs.com/docs/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">输入框提示 placeholder</td>
+            <td>placeholder</td>
+            <td>https://github.com/mathiasbynens/jquery-placeholder</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">tab切换</td>
+            <td>tab、swiper</td>
+            <td>http://www.swiper.com.cn/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">文字滚动</td>
+            <td>scrollcontent</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">在线QQ</td>
+            <td></td>
+            <td><p>tencent://message/?Menu=yes&amp;uin=938000730&amp;Service=58&amp;SigT=A7F6FEA02730C988FEE36DB64F785F3A54C7C09A17F3F5F7F5A0D99D31F40D9470345FCF0E8C3A82BE32D44DF0756F079DDD0E554461C89C35D952A64FD713E24C341194F8B7D9E0DA528CA2A6D855D640179D195E5B9158E19EA3A4B68F26539B3EE2CA9A0444109DE7D667D88A9137C84C533DCD79A0E6&amp;SigU=30E5D5233A443AB2451ABEFE35747B57210310B417786713F5F3140EF7C78F43BD4E8F59C00B559B52820290ADA979F49F46E524A229094BDEC889066DC050730608F3CC795C154D</p></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">二维码生成 QRCode</td>
+            <td>arale-qrcode</td>
+            <td>http://docs.spmjs.io/arale-qrcode/latest/examples/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">title提示</td>
+            <td>tooltips、layer</td>
+            <td>http://layer.layui.com/
+                http://not-only-code.github.io/Simpletooltip/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">表单校验</td>
+            <td>Validform</td>
+            <td>http://not-only-code.github.io/Simpletooltip/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">表格控件</td>
+            <td>bootstrap-table</td>
+            <td>http://issues.wenzhixin.net.cn/bootstrap-table/index.html</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">地区&仓库控件</td>
+            <td>areaSelect</td>
+            <td>svn sl: areaSelect.js</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">颜色选择器</td>
+            <td>jQuery MiniColors</td>
+            <td>http://www.jq22.com/yanshi204</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">文件上传</td>
+            <td>webuploader</td>
+            <td>http://fex.baidu.com/webuploader/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">上传</td>
+            <td>upload</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">旋转（大转盘活动）</td>
+            <td>jQueryRotate</td>
+            <td>http://code.google.com/p/jqueryrotate/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">PDF</td>
+            <td>media metadata</td>
+            <td>http://pdfobject.com/downloads/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">COOKIE操作</td>
+            <td>jquery cookie</td>
+            <td>http://plugins.jquery.com/cookie/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tl">图表</td>
+            <td>highcharts</td>
+            <td>http://www.hcharts.cn/</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td clas="tl"></td>
             <td></td>
             <td></td>
             <td></td>
@@ -25,5 +211,16 @@
         </tr>
     </tbody>
 </table>
+<script type="text/javascript">
+    $(function(){
+        $(".jm-table tbody tr").mouseenter(function(){
+            $(this).addClass('on');
+        });
+        $(".jm-table tbody tr").mouseleave(function(){
+            $(this).removeClass('on');
+        })
+    });
+
+</script>
 </body>
 </html>

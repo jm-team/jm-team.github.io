@@ -1,0 +1,36 @@
+.jm-table{
+    margin: 20px;
+    border: 1px solid #dddddd;
+}
+.jm-table tr.del td{
+    color: #f00;
+    text-decoration: line-through;
+}
+.jm-table th{
+    width: 20%;
+    line-height: 30px;
+    text-align: center;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.jm-table td.tl{
+    padding-left: 20px;
+}
+.jm-table td{
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    max-width: 320px;
+    border: 1px solid #dddddd;
+}
+.jm-table td p{
+    word-wrap: break-word;
+}
+.jm-table td .del-type{
+    text-decoration: line-through;
+    color: #f00;
+    margin-right: 20px;
+}
+.jm-table tr.on td{
+    background: #efefef;
+}
