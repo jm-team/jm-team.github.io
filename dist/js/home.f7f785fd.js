@@ -1,0 +1,1 @@
+webpackJsonp([1],{11:function(e,l,o){var n=o(1);n.registerController("HomeCtrl",["$scope","Api","$modal",function(e,l,o){angular.extend(e,{title:"HOME Page",desc:"这是主页",data:[1,2,3,4,5],modal:function(e){e.preventDefault(),o.open({templateUrl:n.tmps.loginTmp,controller:"loginCtrl",windowClass:"login-modal"})}})}])}});

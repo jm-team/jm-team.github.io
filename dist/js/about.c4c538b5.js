@@ -1,0 +1,1 @@
+webpackJsonp([2],{12:function(e,t,n){var o=n(1);o.registerController("AboutCtrl",["$scope","Api",function(e,t){angular.extend(e,{title:"About Page",desc:"关于。。。。"})}])}});
